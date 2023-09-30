@@ -17,23 +17,20 @@ buildscript {
             maven { url "https://maven.minecraftforge.net" }
         }
 
-        maven { url = "https://repo.spongepowered.org/maven" }
     }
     dependencies {
         classpath "net.minecraftforge.gradle:ForgeGradle:2.3.4"
-        classpath 'org.spongepowered:mixingradle:0.6-SNAPSHOT'
     }
 }
 
 boolean useMirror = use_mirror_url == "true"
 if (useMirror) apply from: "mirror.gradle"
 apply plugin: "net.minecraftforge.gradle.forge"
-apply plugin: 'org.spongepowered.mixin'
 //Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
 
-version = "1.0.0"
+version = "1.0.1"
 group = "com.ideallandframework.colorful_enchantment" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "colorful_enchantment"
+archivesBaseName = "custom_colorful_enchantment"
 
 sourceCompatibility = targetCompatibility = "1.8" // Need this here so eclipse task generates correctly.
 compileJava {
@@ -71,7 +68,6 @@ repositories {
 }
 
 dependencies {
-    compile files('libs/!mixinbooter-4.2.jar')
 
     //Magic_Circle-1.0.1.jar
     // you may put jars on which you depend on in ./libs
@@ -133,8 +129,4 @@ processResources {
     from(sourceSets.main.resources.srcDirs) {
         exclude "mcmod.info"
     }
-}
-mixin {
-    //换成你自己modid 其实这个refmap的名字其他地方也是可以改的
-    add sourceSets.main, "mixins.colorful_enchantment.refmap.json"
 }

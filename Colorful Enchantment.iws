@@ -5,23 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ec25e8e-6f37-4fce-914d-d1acadb75544" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/run/config/custom_colorful_enchantment_cfg.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Hileb/custom_colorful_enchantment/ColorfulEnchantment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Hileb/custom_colorful_enchantment/api/colors/IColorFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Hileb/custom_colorful_enchantment/api/colors/IColorInstance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Hileb/custom_colorful_enchantment/api/registry/ColorFactoryRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Hileb/custom_colorful_enchantment/api/registry/ColorInstancesRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Hileb/custom_colorful_enchantment/internal/instances/DeferredBusHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Hileb/custom_colorful_enchantment/internal/instances/EventHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Hileb/custom_colorful_enchantment/internal/instances/colors/ColorColorEnchantment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Hileb/custom_colorful_enchantment/internal/instances/colors/ColorColorItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Hileb/custom_colorful_enchantment/internal/instances/colors/ColorInstanceNBT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Hileb/custom_colorful_enchantment/internal/instances/colors/ColorInstanceVanilla.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Hileb/custom_colorful_enchantment/internal/json/FactoryLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Hileb/custom_colorful_enchantment/internal/mixin/MixinRenderItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Hileb/custom_colorful_enchantment/internal/utils/RenderUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/colorful_enchantment_at.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mixin.custom_colorful_enchantment.early.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Hileb/custom_colorful_enchantment/internal/RenderItemTransformer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileContent/annotation-processors.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileContent/annotation-processors.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -31,75 +15,25 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CREDITS-fml.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE-fml.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MinecraftForge-Credits.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MinecraftForge-License.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Redirectionor.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Redirectionor.ipr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Redirectionor.iws" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Colorful Enchantment.iws" beforeDir="false" afterPath="$PROJECT_DIR$/Colorful Enchantment.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/makeStart/extracted/GradleStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/makeStart/extracted/GradleStart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/makeStart/extracted/GradleStartServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/makeStart/extracted/GradleStartServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/makeStart/extracted/net/minecraftforge/gradle/GradleStartCommon.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/makeStart/extracted/net/minecraftforge/gradle/GradleStartCommon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/makeStart/extracted/net/minecraftforge/gradle/tweakers/AccessTransformerTweaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/makeStart/extracted/net/minecraftforge/gradle/tweakers/AccessTransformerTweaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/makeStart/extracted/net/minecraftforge/gradle/tweakers/CoremodTweaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/makeStart/extracted/net/minecraftforge/gradle/tweakers/CoremodTweaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge-1.7.10-10.13.4.1614-1.7.10-changelog.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Redirectionor/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Redirectionor/icon_redirectionor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/config/forge.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/forge.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/config/forgeChunkLoading.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/forgeChunkLoading.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/config/redirectionor_cfg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Colorful Enchantment/mixin.custom_colorful_enchantment.early.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/audit/mixin_implementation_report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/audit/mixin_implementation_report.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/config/splash.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/splash.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2023-08-28-1.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2023-08-28-2.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2023-08-28-3.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2023-08-28-4.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2023-09-09-1.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/options.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World-/DIM-1/data/villages.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World-/DIM-1/forcedchunks.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World-/DIM1/data/villages.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World-/DIM1/forcedchunks.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World-/data/Mineshaft.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World-/data/Stronghold.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World-/data/Temple.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World-/data/villages.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World-/forcedchunks.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World-/level.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World-/level.dat_mcr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World-/level.dat_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World-/playerdata/08595ff7-f39e-30f7-893e-b08f1a5b2518.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World-/playerdata/2654e3c3-150d-3857-a426-0b141796a4e0.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World-/playerdata/b7a940e4-3cde-3275-9c73-2f71fe593c98.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World-/region/r.-1.0.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World-/region/r.-1.1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World-/region/r.0.0.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World-/region/r.0.1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World-/session.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World-/stats/08595ff7-f39e-30f7-893e-b08f1a5b2518.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World-/stats/2654e3c3-150d-3857-a426-0b141796a4e0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World-/stats/b7a940e4-3cde-3275-9c73-2f71fe593c98.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/villages.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/DIM1/data/villages.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/data/Mineshaft.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World/data/villages.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/data/villages.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/level.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/level.dat_mcr" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/level.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.0.-1.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World/session.lock" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/session.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usernamecache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usernamecache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Hileb/teampotato.redirectionor/Redirectionor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Hileb/teampotato.redirectionor/RedirectionorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Hileb/custom_colorful_enchantment/ColorfulEnchantmentConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Hileb/teampotato.redirectionor/RedirectionorContainer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Hileb/teampotato.redirectionor/RedirectionorFastUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Hileb/teampotato.redirectionor/RedirectionorTansformer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/icon_redirectionor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Hileb/custom_colorful_enchantment/ColorfulEnchantment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Hileb/custom_colorful_enchantment/ColorfulEnchantment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Hileb/custom_colorful_enchantment/internal/mixin/MixinRenderItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Hileb/custom_colorful_enchantment/internal/utils/RenderUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Hileb/custom_colorful_enchantment/internal/utils/RenderUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mixin.custom_colorful_enchantment.early.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,14 +110,14 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.datadog.showProjectSetup": "true",
-    "last_opened_file_path": "E:/project/MC MOD/UnusuallyProjectPack/Colorful Enchantment/run/mods"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.datadog.showProjectSetup&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/project/MC MOD/UnusuallyProjectPack/Colorful Enchantment/run/mods&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\project\MC MOD\UnusuallyProjectPack\Colorful Enchantment\run\mods" />

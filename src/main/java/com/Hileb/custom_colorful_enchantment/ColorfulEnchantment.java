@@ -7,11 +7,8 @@ import net.minecraftforge.fml.common.DummyModContainer;
 import net.minecraftforge.fml.common.LoadController;
 import net.minecraftforge.fml.common.ModMetadata;
 import net.minecraftforge.fml.relauncher.IFMLLoadingPlugin;
-import zone.rong.mixinbooter.IEarlyMixinLoader;
 
 import javax.annotation.Nullable;
-import java.util.Collections;
-import java.util.List;
 import java.util.Map;
 
 /**
@@ -21,15 +18,11 @@ import java.util.Map;
  **/
 @IFMLLoadingPlugin.MCVersion(ForgeVersion.mcVersion)
 @IFMLLoadingPlugin.Name(ColorfulEnchantment.NAME)
-public class ColorfulEnchantment implements IEarlyMixinLoader, IFMLLoadingPlugin {
+public class ColorfulEnchantment implements IFMLLoadingPlugin {
     public static final String MODID="custom_colorful_enchantment";
     public static final String NAME="Custom Colorful Enchantment";
-    public static final String VERSION="1.0.0";
+    public static final String VERSION="1.0.1";
     public ColorfulEnchantment(){
-    }
-    @Override
-    public List<String> getMixinConfigs() {
-        return Collections.singletonList("mixin.custom_colorful_enchantment.early.json");
     }
     @Override
     public String getModContainerClass() {
@@ -50,7 +43,9 @@ public class ColorfulEnchantment implements IEarlyMixinLoader, IFMLLoadingPlugin
     }
     @Override
     public String[] getASMTransformerClass() {
-        return new String[0];
+        return new String[]{
+                "com.Hileb.custom_colorful_enchantment.internal.RenderItemTransformer"
+        };
     }
     @SuppressWarnings("unused")
     public static class Container extends DummyModContainer {
@@ -66,7 +61,6 @@ public class ColorfulEnchantment implements IEarlyMixinLoader, IFMLLoadingPlugin
         }
 
         public boolean registerBus(EventBus bus, LoadController controller) {
-            bus.register(this);
             bus.register(new DeferredBusHandler());
             return true;
         }

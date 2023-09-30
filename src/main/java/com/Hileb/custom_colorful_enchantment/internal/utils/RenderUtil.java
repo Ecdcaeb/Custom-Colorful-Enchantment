@@ -18,26 +18,31 @@ public class RenderUtil {
     public static final ResourceLocation RES_ITEM_GLINT = new ResourceLocation("textures/misc/enchanted_item_glint.png");
 
     public static int getColor(ItemStack stack){
-        List<Integer> colors=new LinkedList<>();
+        long sumColor=0;
+        int colorCount=0;
         for(Map.Entry<ResourceLocation,IColorInstance> e: ColorInstancesRegistry.REGISTRY.entrySet()){
             IColorInstance iColorInstance=e.getValue();
             if (iColorInstance.hasColor(stack)){
-                colors.add(iColorInstance.getRGBColor(stack));
+                sumColor+=iColorInstance.getRGBColor(stack);
+                colorCount++;
             }
         }
-        int color=0;
-        int size=colors.size();
-        for(int i=0;i<size;i++){
-            color+=(int)(colors.get(i)/size);
+        if (stack.hasEffect() && colorCount>=2){
+            colorCount--;
+            sumColor-=0x8040CB;
         }
-        return color;
+        if (colorCount==0)return 0;
+        else return (int)sumColor/colorCount;
     }
 
+    @SuppressWarnings("unused")
     public static void onRender(RenderItem renderItem,ItemStack stack, IBakedModel model){
-        int color= getColor(stack);
-        //System.out.println(ColorInstancesRegistry.REGISTRY.size());
-        if (color!=0){
-            renderEffect(renderItem,model,color);
+        if (!model.isBuiltInRenderer())
+        {
+            int color= getColor(stack);
+            if (color!=0){
+                renderEffect(renderItem,model,color);
+            }
         }
     }
 
