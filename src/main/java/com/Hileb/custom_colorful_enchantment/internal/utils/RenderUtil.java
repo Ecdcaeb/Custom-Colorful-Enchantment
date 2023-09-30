@@ -11,7 +11,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
@@ -26,14 +25,17 @@ public class RenderUtil {
                 colors.add(iColorInstance.getRGBColor(stack));
             }
         }
+        if(colors.size()==0)return 0;
         if (stack.isItemEnchanted() && colors.size()>=2){
-            colors.remove(0x8040CB);
+            colors.remove(new Integer(0x8040CB));
         }
         int color=0;
+
         int size=colors.size();
         for(int i=0;i<size;i++){
             color+= colors.get(i)/size;
         }
+
         return color;
     }
 
