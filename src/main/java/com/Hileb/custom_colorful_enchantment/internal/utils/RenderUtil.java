@@ -10,6 +10,7 @@ import net.minecraft.client.renderer.texture.TextureMap;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
@@ -18,21 +19,22 @@ public class RenderUtil {
     public static final ResourceLocation RES_ITEM_GLINT = new ResourceLocation("textures/misc/enchanted_item_glint.png");
 
     public static int getColor(ItemStack stack){
-        long sumColor=0;
-        int colorCount=0;
+        List<Integer> colors=new ArrayList<>();
         for(Map.Entry<ResourceLocation,IColorInstance> e: ColorInstancesRegistry.REGISTRY.entrySet()){
             IColorInstance iColorInstance=e.getValue();
             if (iColorInstance.hasColor(stack)){
-                sumColor+=iColorInstance.getRGBColor(stack);
-                colorCount++;
+                colors.add(iColorInstance.getRGBColor(stack));
             }
         }
-        if (stack.hasEffect() && colorCount>=2){
-            colorCount--;
-            sumColor-=0x8040CB;
+        if (stack.isItemEnchanted() && colors.size()>=2){
+            colors.remove(0x8040CB);
         }
-        if (colorCount==0)return 0;
-        else return (int)sumColor/colorCount;
+        int color=0;
+        int size=colors.size();
+        for(int i=0;i<size;i++){
+            color+= colors.get(i)/size;
+        }
+        return color;
     }
 
     @SuppressWarnings("unused")
