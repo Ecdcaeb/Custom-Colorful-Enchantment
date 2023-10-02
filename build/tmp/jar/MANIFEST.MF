@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: custom_colorful_enchantment
+Specification-Vendor: 
+Specification-Version: 1
+Implementation-Title: Custom-Colorful-Enchantment
+Implementation-Version: com
+Implementation-Vendor: 
+Implementation-Timestamp: 2023-10-02T19:12:15+0800
+
