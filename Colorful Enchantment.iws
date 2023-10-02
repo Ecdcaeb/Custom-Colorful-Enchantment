@@ -5,9 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ec25e8e-6f37-4fce-914d-d1acadb75544" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileContent/annotation-processors.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileContent/annotation-processors.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Colorful Enchantment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Colorful Enchantment.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Colorful Enchantment.iws" beforeDir="false" afterPath="$PROJECT_DIR$/Colorful Enchantment.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Colorful Enchantment/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Colorful Enchantment/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Colorful Enchantment/META-INF/colorful_enchantment_at.cfg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/config/splash.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/splash.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2023-09-30-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-09-30-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2023-09-30-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-09-30-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2023-09-30-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-09-30-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2023-09-30-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-09-30-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2023-09-30-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-09-30-5.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2023-09-30-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-09-30-6.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2023-09-30-7.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-09-30-7.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World/data/villages.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/data/villages.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/level.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/level.dat_old" afterDir="false" />
@@ -17,7 +41,9 @@
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usernamecache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usernamecache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Hileb/custom_colorful_enchantment/ColorfulEnchantment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Hileb/custom_colorful_enchantment/ColorfulEnchantment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Hileb/custom_colorful_enchantment/internal/utils/RenderUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Hileb/custom_colorful_enchantment/internal/utils/RenderUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Hileb/custom_colorful_enchantment/internal/RenderItemTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Hileb/custom_colorful_enchantment/internal/RenderItemTransformer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/colorful_enchantment_at.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/custom_colorful_enchantment_at.cfg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,16 +125,19 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.datadog.showProjectSetup&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/project/MC MOD/UnusuallyProjectPack/Colorful Enchantment/run/mods&quot;
+    &quot;last_opened_file_path&quot;: &quot;E:/project/MC MOD/UnusuallyProjectPack/Colorful Enchantment/Custom-Colorful-Enchantment/libs&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\project\MC MOD\UnusuallyProjectPack\Colorful Enchantment\Custom-Colorful-Enchantment\libs" />
       <recent name="E:\project\MC MOD\UnusuallyProjectPack\Colorful Enchantment\run\mods" />
       <recent name="E:\project\MC MOD\UnusuallyProjectPack\Colorful Enchantment\run\config" />
       <recent name="E:\project\MC MOD\UnusuallyProjectPack\Colorful Enchantment\src\main\resources" />
       <recent name="E:\project\MC MOD\UnusuallyProjectPack\Colorful Enchantment\src\main\resources\META-INF" />
-      <recent name="E:\project\MC MOD\UnusuallyProjectPack\Colorful Enchantment\src\main\java\com\Hileb\colorful_enchantment\internal\mixin" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.Hileb.colorful_enchantment.internal.instances.colors" />

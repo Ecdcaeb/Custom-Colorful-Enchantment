@@ -21,7 +21,7 @@ import java.util.Map;
 public class ColorfulEnchantment implements IFMLLoadingPlugin {
     public static final String MODID="custom_colorful_enchantment";
     public static final String NAME="Custom Colorful Enchantment";
-    public static final String VERSION="1.0.2";
+    public static final String VERSION="1.0.3";
     public ColorfulEnchantment(){
     }
     @Override

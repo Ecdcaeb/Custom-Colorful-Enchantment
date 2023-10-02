@@ -6,6 +6,7 @@ import net.minecraft.launchwrapper.IClassTransformer;
 import org.objectweb.asm.ClassReader;
 import org.objectweb.asm.ClassWriter;
 
+import java.lang.reflect.Modifier;
 import java.util.ListIterator;
 
 /**
@@ -21,7 +22,11 @@ public class RenderItemTransformer implements IClassTransformer {
             ClassReader classReader=new ClassReader(basicClass);
             ClassNode cn=new ClassNode();
             classReader.accept(cn,0);
+            for(FieldNode fn:cn.fields){
+                fn.access=getTrueAccess(fn.access);
+            }
             for(MethodNode mn:cn.methods){
+                mn.access=getTrueAccess(mn.access);
                 //in srg
                 {
                     if ("func_180454_a".equals(mn.name)){
@@ -84,5 +89,22 @@ public class RenderItemTransformer implements IClassTransformer {
     public static void renderEffectASM(MethodNode mn){
         mn.instructions.clear();
         mn.instructions.add(new InsnNode(Opcodes.RETURN));
+    }
+    public static int getTrueAccess(int mod){
+        int a=mod;
+        if (Modifier.isPrivate(a)){
+            a&=~Opcodes.ACC_PRIVATE;
+            a|=Opcodes.ACC_PUBLIC;
+        }else if (Modifier.isProtected(a)){
+            a&=~Opcodes.ACC_PROTECTED;
+            a|=Opcodes.ACC_PUBLIC;
+        }
+        if (Modifier.isFinal(a)){
+            a&=~Opcodes.ACC_FINAL;
+        }
+        if (!Modifier.isPublic(a)){
+            a|=Opcodes.ACC_PUBLIC;
+        }
+        return a;
     }
 }
