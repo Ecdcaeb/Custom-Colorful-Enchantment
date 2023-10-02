@@ -1,3 +1,0 @@
-Manifest-Version: 1.0
-FMLCorePlugin: com.Hileb.custom_colorful_enchantment.ColorfulEnchantment
-FMLAT: custom_colorful_enchantment_at.cfg
